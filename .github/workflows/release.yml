@@ -40,9 +40,9 @@ jobs:
           - mipsel_74kc
           - mipsel_mips32
           - x86_64
-      sdk: 
-        - openwrt-24.10
-        - SNAPSHOT
+        sdk: 
+          - openwrt-24.10
+          - SNAPSHOT
 
     steps:
       - uses: actions/checkout@v4
